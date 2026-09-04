@@ -1,0 +1,22 @@
+:root {
+  font-family: 'DM Mono', monospace;
+  color: #f8fafc;
+  background: #05030a;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  --bg: #05030a;
+  --paper: #f8fafc;
+  --muted: #aaa1c7;
+  --line: rgba(196, 181, 253, .2);
+  --acid: #a855f7;
+  --serif: 'Bodoni Moda', Georgia, serif;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; background: var(--bg); }
+button, a { font: inherit; color: inherit; }
+button { cursor: pointer; }
+a { text-decoration: none; }
+button:focus-visible, a:focus-visible { outline: 1px solid var(--acid); outline-offset: 5px; }
